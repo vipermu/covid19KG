@@ -1,0 +1,12 @@
+name: kgcovid
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.2
+  - rake_nltk=1.0.3
+  - pandas=1.0.3
+  - seaborn=0.10.0
+  - scikit-learn=0.22.1
+  - pip:
+    - gensim==3.8.1
